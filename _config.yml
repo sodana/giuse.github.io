@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://giuse.github.io"
+url: "http://sodana.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,20 +14,20 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Giuse
+title: Somayeh Danafar
 
 # Short description of your site
-description: Bringing state-of-the-art machine learning into real world solutions
+# description: Add if you want
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About: "about"
-  Resources:
-    - GitHub: "https://github.com/giuse"
-    - XI lab: "https://exascale.info/members/giuseppe-cuccu/"
-    - Scholar: "http://scholar.google.com/citations?user=BLm8NQAAAAJ"
+  # About: "about"
+  # Resources:
+    # - GitHub: "https://github.com/sodana"
+    # - XI lab: "https://exascale.info/members/giuseppe-cuccu/"
+    # - Scholar: "http://scholar.google.com/citations?user=UgyajGcAAAAJ"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -35,24 +35,24 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: /img/parachute.jpeg
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Giuseppe Cuccu
+  name: Somayeh Danafar
   # email: "youremail@domain.com"
-  facebook: giuseppe.cuccu
-  github: giuse
-  twitter: giuse_tweets
+  # facebook:
+  github: sodana
+  # twitter: giuse_tweets
   # reddit: yourname
   # google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: giuse
+  linkedin: sodana
   # xing: yourname
-  scholar: BLm8NQAAAAJ
-  stackoverflow: 6392246/giuse
+  scholar: UgyajGcAAAAJ
+  # stackoverflow: 6392246/giuse
   # snapchat: yourname
   # instagram: yourname
   # youtube: yourlink   # eg. user/daattali or channel/daattali
@@ -67,14 +67,14 @@ footer-links-active:
   rss: false
   facebook: false
   email: false
-  twitter: true
+  twitter: false
   google-plus: false
   github: true
   reddit: false
   linkedin: true
   xing: false
   scholar: true
-  stackoverflow: true
+  stackoverflow: false
   snapchat: false
   instagram: false
   youtube: false
@@ -93,14 +93,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "giuse.info"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "giuse.info"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-105225349-1"
+# google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
